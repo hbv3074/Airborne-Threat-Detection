@@ -26,27 +26,24 @@ A deep learning-based system designed to detect and classify airborne threats in
 ```
 Airborne-Threat-Detection/
 │
-├── 📁 data/                  # Sample images/videos for testing
-│   ├── 🖼️ images/            # Test images
-│   └── 🎬 videos/            # Test video files
+├── 📁 Screenshots/               # Project screenshots
+│   ├── 🖼️ homepage.png
+│   ├── 🖼️ image_upload.png
+│   └── 🖼️ output.png
 │
-├── 📁 weights/               # Pretrained YOLOv8 weights
-│   ├── 📄 best.pt            # Fine-tuned model weights
-│   └── 📄 yolov8n.pt         # Base YOLOv8 nano weights
+├── 📁 runs/detect/train
+│   ├── evalutaion metrices         # Project screenshots
+│   └── 📁 weights
+│         ├──  📄 best.pt
+│         └──  📄 last.pt
 │
-├── 📁 runs/                  # YOLOv8 output results
-│   ├── 📁 detect/            # Detection results
-│   └── 📁 train/             # Training metrics and checkpoints
+├── 📄 app.py                     # Streamlit app
 │
-├── 📁 utils/                 # Utility functions
-│   ├── 📄 visualization.py   # Result visualization helpers
-│   └── 📄 preprocessing.py   # Image preprocessing functions
+├── 📄 detect.py                  # Detection script for images/videos
 │
-├── 📄 detect.py              # Custom inference script
-├── 📄 train.py               # Script for training on custom dataset
-├── 📄 app.py                 # Web interface for detection
-├── 📄 requirements.txt       # Python dependencies
-└── 📄 README.md              # Project documentation
+├── 📄 requirements.txt           # Python dependencies
+│
+└── 📄 README.md                  # Project documentation
 ```
 
 ## 🔄 Data Flow
