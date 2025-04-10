@@ -60,9 +60,9 @@ graph TD
     E --> F[Threat Assessment]
     F --> G[Visualization]
     
-    classDef input fill:#d0f0c0,stroke:#333,stroke-width:2px;
-    classDef process fill:#b0e0e6,stroke:#333,stroke-width:2px;
-    classDef output fill:#ffd700,stroke:#333,stroke-width:2px;
+    classDef input fill:#d0f0c0,stroke:#000,stroke-width:2px,color:#000;
+    classDef process fill:#b0e0e6,stroke:#000,stroke-width:2px,color:#000;
+    classDef output fill:#ffd700,stroke:#000,stroke-width:2px,color:#000;
     
     class A input;
     class B,C,D,E,F process;
