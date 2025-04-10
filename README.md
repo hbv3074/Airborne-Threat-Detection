@@ -18,6 +18,7 @@ A deep learning-based system designed to detect and classify airborne threats in
 
 - Python 🐍
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- Streamlit
 - OpenCV
 - NumPy
 
