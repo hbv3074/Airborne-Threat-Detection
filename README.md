@@ -1,8 +1,4 @@
-Here's a well-structured `README.md` file for your **Airborne Threat Detection** GitHub repository using YOLOv8 to detect airplanes, drones, and helicopters:
 
----
-
-```markdown
 # 🛡️ Airborne Threat Detection
 
 A deep learning-based system designed to detect and classify airborne threats in real-time, including airplanes, drones, and helicopters. This project utilizes the YOLOv8 (You Only Look Once) object detection model for high-speed, accurate detection from aerial or ground surveillance feeds.
@@ -27,7 +23,7 @@ A deep learning-based system designed to detect and classify airborne threats in
 
 ## 🗂️ Project Structure
 
-```
+
 Airborne-Threat-Detection/
 ├── data/                # Sample images/videos for testing
 ├── weights/             # Pretrained YOLOv8 weights
@@ -36,7 +32,7 @@ Airborne-Threat-Detection/
 ├── train.py             # Script for training on custom dataset
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
-```
+
 
 ## 🖼️ Sample Output
 
@@ -91,8 +87,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 This project is licensed under the MIT License.
 
-```
-
----
-
-Would you like me to add a section for a future roadmap or model evaluation metrics too?
