@@ -32,10 +32,10 @@ Airborne-Threat-Detection/
 │   └── 🖼️ output.png
 │
 ├── 📁 runs/detect/train
-│   ├── evalutaion metrices         # Project screenshots
+│   ├── evalutaion metrices         
 │   └── 📁 weights
-│         ├──  📄 best.pt
-│         └──  📄 last.pt
+│         ├──  📄 best.pt         #Trained models
+│         └──  📄 last.pt         
 │
 ├── 📄 app.py                     # Streamlit app
 │
