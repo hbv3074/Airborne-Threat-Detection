@@ -40,7 +40,7 @@ Airborne-Threat-Detection/
 │
 ├── 📄 app.py                     # Streamlit app
 │
-├── 📄 air orne_threat_detrction.ipynb                               # Code for training of Yolov model
+├── 📄 airborne_threat_detrction.ipynb    # Code for training Yolo model
 │
 ├── 📄 requirements.txt           # Python dependencies
 │
