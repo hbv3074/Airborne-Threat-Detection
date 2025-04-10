@@ -40,7 +40,7 @@ Airborne-Threat-Detection/
 │
 ├── 📄 app.py                     # Streamlit app
 │
-├── 📄 detect.py                  # Detection script for images/videos
+├── 📄 air orne_threat_detrction.ipynb                               # Code for training of Yolov model
 │
 ├── 📄 requirements.txt           # Python dependencies
 │
