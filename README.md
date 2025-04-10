@@ -21,19 +21,53 @@ A deep learning-based system designed to detect and classify airborne threats in
 - OpenCV
 - NumPy
 
-## 🗂️ Project Structure
+# 📂 Project Structure
 
-
+```
 Airborne-Threat-Detection/
-├── data/                # Sample images/videos for testing
-├── weights/             # Pretrained YOLOv8 weights
-├── runs/                # YOLOv8 output results
-├── detect.py            # Custom inference script
-├── train.py             # Script for training on custom dataset
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+│
+├── 📁 data/                  # Sample images/videos for testing
+│   ├── 🖼️ images/            # Test images
+│   └── 🎬 videos/            # Test video files
+│
+├── 📁 weights/               # Pretrained YOLOv8 weights
+│   ├── 📄 best.pt            # Fine-tuned model weights
+│   └── 📄 yolov8n.pt         # Base YOLOv8 nano weights
+│
+├── 📁 runs/                  # YOLOv8 output results
+│   ├── 📁 detect/            # Detection results
+│   └── 📁 train/             # Training metrics and checkpoints
+│
+├── 📁 utils/                 # Utility functions
+│   ├── 📄 visualization.py   # Result visualization helpers
+│   └── 📄 preprocessing.py   # Image preprocessing functions
+│
+├── 📄 detect.py              # Custom inference script
+├── 📄 train.py               # Script for training on custom dataset
+├── 📄 app.py                 # Web interface for detection
+├── 📄 requirements.txt       # Python dependencies
+└── 📄 README.md              # Project documentation
+```
 
+## 🔄 Data Flow
 
+```mermaid
+graph TD
+    A[Input Source] -->|Video/Image| B[Preprocessing]
+    B --> C[YOLOv8 Model]
+    C --> D[Object Detection]
+    D --> E[Classification]
+    E --> F[Threat Assessment]
+    F --> G[Visualization]
+    
+    classDef input fill:#d0f0c0,stroke:#333,stroke-width:2px;
+    classDef process fill:#b0e0e6,stroke:#333,stroke-width:2px;
+    classDef output fill:#ffd700,stroke:#333,stroke-width:2px;
+    
+    class A input;
+    class B,C,D,E,F process;
+    class G output;
+```
 ## 🖼️ Sample Output
 
 *Homepage*
