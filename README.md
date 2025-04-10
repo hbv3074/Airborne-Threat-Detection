@@ -36,12 +36,15 @@ Airborne-Threat-Detection/
 
 ## 🖼️ Sample Output
 
-![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/homepage.png)
 *Homepage*
-![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/image_upload.png) 
+![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/homepage.png)
+
 *Image upload*
+![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/image_upload.png) 
+
+*YOLOv8 detecting a Helicopterin the sky.*
 ![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/output.png) 
-*YOLOv8 detecting an airplane in the sky.*
+
 
 ## 🛠️ Installation
 
@@ -76,7 +79,7 @@ The model is trained on a custom dataset consisting of labeled images of:
 - Helicopters
 - Drones
 
-You can prepare your dataset using [Roboflow](https://roboflow.com/) and export in YOLO format.
+You can view the dataset using [Roboflow]([https://roboflow.com/](https://universe.roboflow.com/ahmedmohsen/drone-detection-new-peksv)) and export in YOLO format.
 
 ## 🤝 Contributing
 
