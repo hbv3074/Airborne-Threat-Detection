@@ -1,5 +1,5 @@
 
-# 🛡️ Airborne Threat Detection
+# 🛡️ Airborne Threat Detection system
 
 A deep learning-based system designed to detect and classify airborne threats in real-time, including airplanes, drones, and helicopters. This project utilizes the YOLOv8 (You Only Look Once) object detection model for high-speed, accurate detection from aerial or ground surveillance feeds.
 
