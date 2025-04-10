@@ -36,7 +36,11 @@ Airborne-Threat-Detection/
 
 ## 🖼️ Sample Output
 
-![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/runs/sample_output.jpg)  
+![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/homepage.png)
+*Homepage*
+![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/image_upload.png) 
+*Image upload*
+![sample](https://github.com/hbv3074/Airborne-Threat-Detection/blob/main/Screenshots/output.png) 
 *YOLOv8 detecting an airplane in the sky.*
 
 ## 🛠️ Installation
@@ -81,7 +85,7 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## 🧑‍💻 Author
 
 **Harsh Balkrishna Vahal**  
-[GitHub](https://github.com/hbv3074) | [LinkedIn](https://www.linkedin.com/in/harshvahal)
+[GitHub](https://github.com/hbv3074) | [LinkedIn](https://www.linkedin.com/in/harsh-vahal)
 
 ## 📜 License
 
